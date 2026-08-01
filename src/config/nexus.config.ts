@@ -121,14 +121,13 @@ export const nexusConfig: NexusConfig = {
 
   /* ─── Social Links ──────────────────────────────────────── */
   social: [
-    { platform: 'twitter', url: 'https://twitter.com', label: 'Follow on X' },
-    { platform: 'github', url: 'https://github.com', label: 'View on GitHub' },
-    { platform: 'discord', url: 'https://discord.gg', label: 'Join Discord' },
+    { platform: 'linkedin', url: 'https://www.linkedin.com/in/abhishekgoswami-ai/', label: 'Connect on LinkedIn' },
+    { platform: 'instagram', url: 'https://www.instagram.com/abhishekgoswamii_/', label: 'Follow on Instagram' },
   ],
 
   /* ─── Footer ─────────────────────────────────────────────── */
   footer: {
-    text: '© 2025 NEXUS. All rights reserved.',
+    text: '© Designed & Crafted by Abhishek Goswami',
     links: [
       { text: 'Privacy', url: '#' },
       { text: 'Terms', url: '#' },
