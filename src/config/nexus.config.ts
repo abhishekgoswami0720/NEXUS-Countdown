@@ -13,14 +13,6 @@
 
 import type { NexusConfig } from '../types';
 
-/** Generate a target date 7 days from now (default for development) */
-const getDefaultTargetDate = (): string => {
-  const target = new Date();
-  target.setDate(target.getDate() + 7);
-  target.setHours(0, 0, 0, 0);
-  return target.toISOString();
-};
-
 export const nexusConfig: NexusConfig = {
 
   /* ─── Meta / SEO ─────────────────────────────────────────── */
@@ -35,8 +27,8 @@ export const nexusConfig: NexusConfig = {
 
   /* ─── Countdown ──────────────────────────────────────────── */
   countdown: {
-    targetDate: getDefaultTargetDate(),
-    timezone: 'UTC',
+    targetDate: '2026-08-02T04:30:00.000Z', // Aug 2, 2026, 10:00 AM IST
+    timezone: 'Asia/Kolkata',
     revealTitle: 'THE WAIT IS OVER',
     revealSubtitle: 'A new chapter begins.',
   },
