@@ -6,7 +6,7 @@
  * with overshoot for a premium feel.
  */
 
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, type Variants } from 'framer-motion';
 import { padZero } from '../../utils/math';
 
 interface CountdownDigitProps {
@@ -15,7 +15,7 @@ interface CountdownDigitProps {
   padLength?: number;
 }
 
-const digitVariants = {
+const digitVariants: Variants = {
   initial: {
     opacity: 0,
     y: 30,
@@ -28,7 +28,7 @@ const digitVariants = {
     scale: 1,
     filter: 'blur(0px)',
     transition: {
-      type: 'spring',
+      type: "spring" as const,
       stiffness: 200,
       damping: 20,
       mass: 0.8,
@@ -41,7 +41,7 @@ const digitVariants = {
     filter: 'blur(8px)',
     transition: {
       duration: 0.3,
-      ease: 'easeIn',
+      ease: "easeIn",
     },
   },
 };
