@@ -6,13 +6,12 @@
  */
 
 import { motion } from 'framer-motion';
-import { Globe, ExternalLink, MessageCircle } from 'lucide-react';
+import { Linkedin, Instagram } from 'lucide-react';
 import { nexusConfig } from '../../config/nexus.config';
 
 const socialIcons: Record<string, React.ReactNode> = {
-  twitter: <Globe size={18} />,
-  github: <ExternalLink size={18} />,
-  discord: <MessageCircle size={18} />,
+  linkedin: <Linkedin size={18} />,
+  instagram: <Instagram size={18} />,
 };
 
 export function Footer() {
