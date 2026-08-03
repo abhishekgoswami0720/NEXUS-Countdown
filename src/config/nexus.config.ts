@@ -27,7 +27,7 @@ export const nexusConfig: NexusConfig = {
 
   /* ─── Countdown ──────────────────────────────────────────── */
   countdown: {
-    targetDate: '2026-08-02T04:30:00.000Z', // Aug 2, 2026, 10:00 AM IST
+    targetDate: '2026-08-03T03:30:00.000Z', // Aug 3, 2026, 9:00 AM IST
     timezone: 'Asia/Kolkata',
     revealTitle: 'THE WAIT IS OVER',
     revealSubtitle: 'A new chapter begins.',
@@ -127,7 +127,7 @@ export const nexusConfig: NexusConfig = {
 
   /* ─── Footer ─────────────────────────────────────────────── */
   footer: {
-    text: '© Designed & Crafted by Abhishek Goswami',
+    text: '© 2025 NEXUS. All rights reserved.',
     links: [
       { text: 'Privacy', url: '#' },
       { text: 'Terms', url: '#' },
