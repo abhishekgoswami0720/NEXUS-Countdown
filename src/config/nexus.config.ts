@@ -27,7 +27,7 @@ export const nexusConfig: NexusConfig = {
 
   /* ─── Countdown ──────────────────────────────────────────── */
   countdown: {
-    targetDate: '2026-08-03T03:30:00.000Z', // Aug 3, 2026, 9:00 AM IST
+    targetDate: '2026-08-03T05:40:00.000Z', // Aug 3, 2026, 11:10 AM IST
     timezone: 'Asia/Kolkata',
     revealTitle: 'THE WAIT IS OVER',
     revealSubtitle: 'A new chapter begins.',
